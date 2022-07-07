@@ -1,0 +1,22 @@
+{
+    "name": "lucas/send-table",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\App\\": "src/"
+        },
+        "files": [
+            "src/routes.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lucas-Ayabe",
+            "email": "lucas.ayabe@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
